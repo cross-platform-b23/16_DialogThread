@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogThread</class>
+ <widget class="QDialog" name="DialogThread">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>403</width>
+    <height>213</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DialogThread</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="3">
+    <widget class="QProgressBar" name="progressBarA">
+     <property name="minimumSize">
+      <size>
+       <width>381</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="pushButtonStartA">
+     <property name="maximumSize">
+      <size>
+       <width>93</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Start A</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>178</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="pushButtonStopA">
+     <property name="maximumSize">
+      <size>
+       <width>93</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Stop A</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QProgressBar" name="progressBarB">
+     <property name="minimumSize">
+      <size>
+       <width>371</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QPushButton" name="pushButtonStartB">
+     <property name="maximumSize">
+      <size>
+       <width>93</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Start B</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>178</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="2">
+    <widget class="QPushButton" name="pushButtonStopB">
+     <property name="maximumSize">
+      <size>
+       <width>93</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Stop B</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="QProgressBar" name="progressBarC">
+     <property name="minimumSize">
+      <size>
+       <width>371</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QPushButton" name="pushButtonStartC">
+     <property name="maximumSize">
+      <size>
+       <width>93</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Start C</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>178</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="pushButtonStopC">
+     <property name="maximumSize">
+      <size>
+       <width>93</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Stop C</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
